@@ -1,0 +1,399 @@
+
+*
+{
+    @import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Signika+Negative:wght@400;600&display=swap');
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    
+}
+#colors{
+    background-color: #302727;
+    background-color: #ba2d2d;
+    background-color: #f2511b;
+    background-color: #f2861b;
+    background-color: #c7c730;
+}
+body
+{
+    background-color: #dbdbdb;
+}
+
+body #--pagina--dados--geral-DIV
+{
+    width: 1500px;
+    margin: 0% auto;
+    background-color: rgb(240, 240, 240);
+}
+
+/* MENU */
+
+#--menu--boxgeral-DIV
+{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    align-items: center;
+    background-color: #ba2d2d;
+    color: white;
+}
+
+#--menu--opcoesSide-DIV 
+{
+    display: flex;
+    width: 50%;
+    margin: 0 20px;
+
+}
+
+#--menu--opcoesSide-DIV ul
+{
+
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2vw;
+
+}
+
+#--menu--opcoesSide-DIV ul li a
+{
+
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.1s;
+    padding: 10px;
+    
+
+}
+
+#--menu--opcoesSide-DIV ul li a:hover
+{
+
+    display: block;
+    text-decoration: none;
+    color: #ba2d2d;
+    transition: 0.1s;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+    
+    
+}
+
+#--menu--botaoSide--DIV 
+{
+   
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    margin: 0 50px;
+    
+}
+
+#--menu--capsulaBotao--DIV
+{
+    display: flex;
+    width: 45%;
+    height: 100%;
+    justify-content: end;
+    display: flex;
+    
+    
+}
+
+#--menu--capsulaBotao--DIV button
+{
+    width: 50%;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    border-color: #ffffff;
+    transition: 0.1s;
+    border-style: solid;
+    }
+
+
+#--menu--capsulaBotao--DIV button:active {
+    transition: 0.1s;
+    background-color: white ;
+    color: #ba2d2d;
+}
+
+
+/* BANNER INICIAL */
+
+#--main--geralBanner-DIV
+{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    background-position: top;
+
+}
+
+#--main--bannerInformativo--DIV
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+#--main--informativo-abraSuaConta-DIV
+{
+    display: block;
+    width: 40%;
+    height: 250px;
+    align-items: center;
+    border-radius: 20px;
+    opacity: 0.8;
+
+    background-color: #f2861b;;
+
+}
+
+#--main--dadosCardInformaçao-DIV{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    font-size: large;
+    gap: 25px;
+    margin: 0 50px;
+}
+
+#--main--dadosCardInformaçao-DIV button
+{
+    width: 35%;
+    height: 50px;
+    
+
+    background-color: #000000;
+    border-radius: 10px;
+    border-color: #000000;
+    transition: 0.1s;
+    border-style: solid;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* CARDS FOMRA DE PAGAMENTO PREFERIDA */
+
+
+#--sectionsCards--DIV
+{
+    margin: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#--sectionsCards--grupoCards-DIV
+{
+    margin: 30px;
+    margin-top: 60px;
+    display: flex;
+    gap: 80px;
+
+}
+
+.cardsSection
+{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cardsSection img
+{
+    width: 100px;
+    height: 100px;
+}
+
+.cardsSection h3
+{
+    font-size: 17px;
+
+}
+
+/* SECTION CONTRATE NOSSOS SERVIÇOS */
+#--section--ContractBannerGeral-DIV
+{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+
+    background-color: #302727;
+}
+
+#--textBannerContract-DIV
+{
+    height: 100%;
+    width: 50%;
+    color: white;
+    margin: 70px  ;
+    margin-top: 150px;
+    gap: 30px;
+
+}
+
+#--textBannerContract-DIV h1
+{
+    margin: 0 30px;
+    margin-bottom: 20px;
+}
+
+#--imgBannerContract-DIV
+{
+   
+    width: 70%;
+}
+#--imgBannerContract-DIV img
+{
+    width: 760px;
+    height: 350px;
+    
+}
+
+
+/* Seja Cliente Section */
+
+
+#--section-grupoImgSejaCliente-DIV
+{
+    display: flex;
+    justify-content: center;
+}
+#--section-grupotextSejaCliente-DIV
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+ 
+.imgCardsSejaCliente
+{
+
+    display: flex;
+    margin: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#--imgGrupoSejaCliente--um-DIV
+{
+    background-image: url(./images/cartaoUm.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+}
+#--imgGrupoSejaCliente--dois-DIV
+{
+    background-image: url(./images/cartaoDois.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+}
+#--imgGrupoSejaCliente--tres-DIV
+{
+    background-image: url(./images/cartaoTres.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+}
+
+
+#--footer--baseSite--DIV
+{
+    display: flex;
+    background-color: #ba2d2d;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/* DIV DA TABELA  */
+#--tabela--estilizacaoTabelaGeral-DIV
+{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#--tabela--cardTabela-DIV
+{
+    display: flex;
+    width: 800px;
+    height: 300px;
+    padding: 30px;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+#--tabela--cardTabela-DIV h1
+{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+/* TABELA DE ATENDIMENTO */
+
+table
+{
+    width: 800px;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+th, td
+{
+    height: 60px;
+    border: 2px solid black;
+}
+
+th{
+    background-color: #ba2d2d;
+    color: #fff;
+    border-color:#ba2d2d ;
+    width: 100px;
+}
+
+th:empty{
+    background-color: transparent;
+    border: none;
+}
