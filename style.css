@@ -115,6 +115,7 @@ body #--pagina--dados--geral-DIV
     border-color: #ffffff;
     transition: 0.1s;
     border-style: solid;
+    cursor: pointer;
     }
 
 
@@ -122,6 +123,7 @@ body #--pagina--dados--geral-DIV
     transition: 0.1s;
     background-color: white ;
     color: #ba2d2d;
+    cursor: pointer;
 }
 
 
@@ -135,7 +137,7 @@ body #--pagina--dados--geral-DIV
     height: 600px;
     background-image: url(./images/banner.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 1000px;
+    background-size: 100%;
     background-position: top;
 
 }
@@ -188,13 +190,18 @@ body #--pagina--dados--geral-DIV
 
 /* CARDS FOMRA DE PAGAMENTO PREFERIDA */
 
+#--sectionsCards--SECTION
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 
+}
 #--sectionsCards--DIV
 {
-    margin: 30px;
-    
     display: flex;
-    justify-content: center;
+    margin: 30px;
+    width: 80%;
     align-items: center;
     flex-direction: column;
 
@@ -202,6 +209,8 @@ body #--pagina--dados--geral-DIV
 
 #--sectionsCards--grupoCards-DIV
 {
+    width: 100%;
+    height: 300px;
     margin: 30px;
     margin-top: 60px;
     display: flex;
@@ -212,8 +221,8 @@ body #--pagina--dados--geral-DIV
 .cardsSection
 {
     display: flex;
-    width: 300px;
-    height: 300px;
+    width: 30%;
+    height: 30%px;
     border: 1px solid black;
     border-radius: 10px;
     justify-content: center;
@@ -224,7 +233,7 @@ body #--pagina--dados--geral-DIV
 
 .cardsSection img
 {
-    width: 100px;
+    width: 100%;
     height: 100px;
 }
 
@@ -235,13 +244,18 @@ body #--pagina--dados--geral-DIV
 }
 
 /* SECTION CONTRATE NOSSOS SERVIÇOS */
+#--section-SejaCliente-SECTION
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 #--section--ContractBannerGeral-DIV
 {
     display: flex;
     width: 100%;
     height: 400px;
     align-items: center;
-
     background-color: #302727;
 }
 
@@ -252,7 +266,7 @@ body #--pagina--dados--geral-DIV
     color: white;
     margin: 70px  ;
     margin-top: 150px;
-    gap: 30px;
+    
 
 }
 
@@ -264,12 +278,11 @@ body #--pagina--dados--geral-DIV
 
 #--imgBannerContract-DIV
 {
-   
     width: 70%;
 }
 #--imgBannerContract-DIV img
 {
-    width: 760px;
+    width: 90%;
     height: 350px;
     
 }
@@ -327,17 +340,6 @@ body #--pagina--dados--geral-DIV
 }
 
 
-#--footer--baseSite--DIV
-{
-    display: flex;
-    background-color: #ba2d2d;
-    width: 100%;
-    height: 50px;
-    color: #ffffff;
-    justify-content: center;
-    align-items: center;
-    
-}
 
 
 /* DIV DA TABELA  */
@@ -353,7 +355,7 @@ body #--pagina--dados--geral-DIV
 #--tabela--cardTabela-DIV
 {
     display: flex;
-    width: 800px;
+    width: 60%;
     height: 300px;
     padding: 30px;
     background-color: #ffffff;
@@ -374,7 +376,7 @@ body #--pagina--dados--geral-DIV
 
 table
 {
-    width: 800px;
+    width: 100%;
     border-collapse: collapse;
     text-align: center;
 
@@ -396,4 +398,23 @@ th{
 th:empty{
     background-color: transparent;
     border: none;
+}
+
+
+#--footer--baseSite--DIV
+{
+    display: flex;
+    background-color: #ba2d2d;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
