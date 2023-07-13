@@ -22,7 +22,7 @@ body
 
 body #--pagina--dados--geral-DIV
 {
-    width: 1500px;
+    width: 100vw;
     margin: 0% auto;
     background-color: rgb(240, 240, 240);
 }
